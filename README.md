@@ -8,3 +8,10 @@ This project demonstrates how to generate images from textual prompts using a pr
 - Image width and height (adjusted to be divisible by 8 automatically).
 3. Displays the generated images using Matplotlib.
 ## Prerequisites
+1. Python 3.7 or higher
+2. CUDA-compatible GPU (for optimal performance)
+## Installation
+Clone the repository or download the script.
+Install the required Python packages: "pip install diffusers transformers accelerate matplotlib"
+## Usage
+Run the script in your Python environment: "python text_to_image_generator.py"
